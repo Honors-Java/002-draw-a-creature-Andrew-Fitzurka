@@ -52,30 +52,6 @@ void draw() {
     line(190, 154, 203, 158);
     line(203, 158, 217, 154);
 
-
-  //Creature's Left Claw/Finger Appendages
-  stroke(0);
-  fill(127, 0, 0);
-  rect(51, 243, 25, 20);
-    stroke(0, 0, 255);
-    line(41, 253, 61, 270);
-    line(61, 270, 46, 253);
-    line(51, 253, 71, 270);
-    line(71, 270, 56, 253);
-    line(65, 244, 78, 265);
-    line(78, 265, 65, 248);
-  
-  //Creature's Right Claw/Finger Appendages
-  stroke(0);
-  rect(345, 243, 25, 20);
-    stroke(0, 0, 255);
-    line(355, 253, 335, 270);
-    line(335, 270, 350, 253);
-    line(345, 253, 325, 270);
-    line(325, 270, 340, 253);
-    line(333, 244, 319, 265);
-    line(319, 265, 333, 248);
-  
   //Creature's Left Arm
   stroke(0);
     line(48, 170, 19, 198);
@@ -109,4 +85,30 @@ void draw() {
     point(56.48, 165);
     point(338, 165);
 
+  //Creature's Left Claw/Finger Appendages
+  stroke(0);
+  fill(127, 0, 0);
+  quad(48, 253, 38, 233, 64, 233, 74, 253);
+    stroke(0, 0, 255);
+    line(49, 253, 69, 270);
+    line(69, 270, 54, 253);
+    line(59, 253, 79, 270);
+    line(79, 270, 64, 253);
+    line(70, 244, 82, 251);
+    line(82, 251, 83, 265);
+    line(83, 265, 85, 248);
+    line(85, 248, 67, 240);
+  
+  //Creature's Right Claw/Finger Appendages
+  stroke(0);
+  quad(350, 253, 359, 233, 333, 233, 323, 253);
+    stroke(0, 0, 255);
+    line(349, 253, 329, 270);
+    line(329, 270, 344, 253);
+    line(339, 253, 319, 270);
+    line(319, 270, 334, 253);
+    line(326, 245, 315, 251);
+    line(315, 251, 314, 265);
+    line(314, 265, 312, 248);
+    line(312, 248, 328, 242)
 }
