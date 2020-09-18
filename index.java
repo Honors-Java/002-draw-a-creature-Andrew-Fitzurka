@@ -12,16 +12,16 @@ void draw() {
   //Make a creature!!! 
   //all of your programming should be after this 👍
   
-  //Body
+  //Creature's Body
   stroke(0);
   fill(200);
     rect(198, 165, 300, 10);
   
-  //Head
+  //Creature's Head
   fill(171, 230, 231);
     ellipse(200, 143, 100, 34);
   
-  //Eyes
+  //Creature's Eyes
   fill(0);
     ellipse(182, 138, 10, 10);
     ellipse(213, 138, 10, 10);
@@ -34,7 +34,7 @@ void draw() {
     ellipse(229, 137, 10, 10);
     ellipse(178, 151, 10, 10);
   
-  //Pupils
+  //Creature's Pupils
   stroke(255);
     point(183, 140);
     point(211, 140);
@@ -47,13 +47,13 @@ void draw() {
     point(227, 139);
     point(240, 144);
   
-  //Mouth
+  //Creature's Mouth
   stroke(0);
     line(190, 154, 203, 158);
     line(203, 158, 217, 154);
 
 
-  //Left Claw/Finger Appendages
+  //Creature's Left Claw/Finger Appendages
   stroke(0);
   fill(127, 0, 0);
   rect(51, 243, 25, 20);
@@ -65,7 +65,7 @@ void draw() {
     line(65, 244, 78, 265);
     line(78, 265, 65, 248);
   
-  //Right Claw/Finger Appendages
+  //Creature's Right Claw/Finger Appendages
   stroke(0);
   rect(345, 243, 25, 20);
     stroke(0, 0, 255);
@@ -76,20 +76,20 @@ void draw() {
     line(333, 244, 319, 265);
     line(319, 265, 333, 248);
   
-  //Left Arm
+  //Creature's Left Arm
   stroke(0);
     line(48, 170, 19, 198);
     line(19, 198, 41, 233);
     line(68, 170, 39, 198);
     line(39, 198, 61, 233);
 
-  //Right Arm  
+  //Creature's Right Arm  
     line(348, 170, 379, 198);
     line(379, 198, 355, 233);
     line(327, 170, 358, 198);
     line(358, 198, 335, 233);
   
-  //Left-side Joints
+  //Creature's Left-side Joints
   stroke(0);
   fill(150);
     ellipse(30, 200, 19.8, 19.8);
@@ -97,7 +97,7 @@ void draw() {
     ellipse(57, 165, 20, 20);
     ellipse(338, 165, 20, 20);
 
-  //Right-side Joints  
+  //Creature's Right-side Joints  
   fill(0);
     ellipse(30, 200, 10, 10);
     ellipse(367, 200, 10, 10);
